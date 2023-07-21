@@ -8,7 +8,7 @@
       </a>
     </li>
     {{ end  }}
-    {{ range $key, $value := $.Site.Data.social.sites }}
+    <!-- {{ range $key, $value := $.Site.Data.social.sites }}
       {{ with index $.Site.Params.social $key }}
         <li>
           <a
@@ -20,7 +20,7 @@
           </a>
         </li>
       {{ end }}
-    {{ end }}
+    {{ end }} -->
     {{ with $.Site.Params.chalk.rss_enabled }}
       <li>
         <a href="{{ `index.xml` | relURL }}" rel="noreferrer noopener" target="_blank" title="RSS">

@@ -408,7 +408,7 @@ template {
   box-sizing: border-box; }
 
 html {
-  font-size: 16px; }
+  font-size: 18px; }
 
 body {
   margin: 0 auto;
@@ -438,37 +438,37 @@ h6 {
   text-rendering: optimizeLegibility; }
 
 h1 {
-  font-size: 25.6px;
+  font-size: 28.8px;
   font-weight: 400;
   letter-spacing: -.03em;
   color: #121111; }
 
 h2 {
-  font-size: 24px;
+  font-size: 27px;
   font-weight: 400; }
 
 h3 {
-  font-size: 20.8px;
+  font-size: 23.4px;
   font-weight: 500; }
 
 h4 {
-  font-size: 17.6px;
+  font-size: 19.8px;
   font-weight: 500; }
 
 h5 {
-  font-size: 18.72px;
+  font-size: 21.06px;
   font-weight: 500; }
 
 h6 {
-  font-size: 16px; }
+  font-size: 18px; }
 
 @media all and (max-width: 767px) {
   h1 {
-    font-size: 24px; }
+    font-size: 27px; }
   h2 {
-    font-size: 21.6px; }
+    font-size: 24.3px; }
   h3 {
-    font-size: 20px; } }
+    font-size: 22.5px; } }
 
 a {
   color: #615b5b;
@@ -546,7 +546,7 @@ img {
   width: 100%;
   padding: 0 20px;
   margin: 0;
-  font-size: 16px;
+  font-size: 18px;
   text-align: left;
   vertical-align: top; }
   .grid-cell.with-1col {
@@ -778,10 +778,14 @@ img {
   .article-header p {
     display: block;
     margin: 12px 0 10px;
-    font-size: 16px;
+    font-size: 18px;
     color: #615b5b; }
   .article-header a {
     text-decoration: none; }
+  .article-header h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    margin-bottom: 32px; }
 
 .article-content {
   display: block; }
@@ -791,12 +795,12 @@ img {
   .article-content img,
   .article-content blockquote {
     display: block;
-    margin-bottom: 30px; }
+    margin-bottom: 4px; }
   .article-content h2,
   .article-content h3,
   .article-content h4 {
     display: block;
-    margin-bottom: 10px;
+    margin: 32px 0px;
     font-family: "Lato", Helvetica, Arial, sans-serif;
     color: #121111; }
   .article-content blockquote p {
@@ -806,6 +810,10 @@ img {
     margin-top: -4px;
     margin-bottom: 0;
     vertical-align: middle; }
+  .article-content video {
+    margin: 24px 0px; }
+  .article-content img {
+    margin: 12px 0px; }
 
 .article-comments {
   display: block;

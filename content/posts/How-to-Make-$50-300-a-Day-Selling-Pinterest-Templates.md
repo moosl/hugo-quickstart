@@ -10,9 +10,7 @@ tags:
   - Make Money Online
 ---
 
-Did you know you can make $50-300 in just 24 hours by creating and selling Pinterest templates? 
-
-Most people are unaware of this lucrative money-making opportunity. Let me show you how it's done.
+Did you know you can make $50-300 in just 24 hours by creating and selling Pinterest templates? Most people are unaware of this lucrative money-making opportunity. Let me show you how it's done.
 
 ## Why Create Pinterest Templates?
 

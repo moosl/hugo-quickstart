@@ -160,6 +160,11 @@
   a {
     text-decoration: none;
   }
+  h1{
+    font-size: 40px;
+    line-height:1.2;
+    margin-bottom: 32px;
+  }
 }
 
 .article-content {
@@ -170,13 +175,13 @@
   img,
   blockquote {
     display: block;
-    margin-bottom: 30px;
+    margin-bottom: 4px;
   }
   h2,
   h3,
   h4 {
     display: block;
-    margin-bottom: 10px;
+    margin: 32px 0px;
     font-family: $sans-serif;
     color: $article-post-titles-color;
   }
@@ -188,6 +193,12 @@
     margin-top: -4px;
     margin-bottom: 0;
     vertical-align: middle;
+  }
+  video{
+    margin: 24px 0px;
+  }
+  img{
+    margin: 12px 0px;
   }
 }
 

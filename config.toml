@@ -11,3 +11,6 @@ theme = 'chalk'
   rss_enabled = true
   blog_theme = 'light' # Doesn't matter if theme_toggle = true
   local_fonts = false
+
+[params.social]
+  twitter='xiaohuggg'
